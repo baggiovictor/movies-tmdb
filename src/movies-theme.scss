@@ -1,0 +1,10 @@
+@import '~@angular/material/theming';
+
+$color-primary: #390772;
+$color-secondary: #ffffff;
+
+$movies-palette: mat-palette($color-primary, $color-secondary);
+
+$movies-theme: mat-light-theme($movies-palette);
+
+@include angular-material-theme($movies-theme);
